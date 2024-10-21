@@ -1,3 +1,8 @@
+
+FROM quay.io/redhat-user-workloads/rhn-engineering-jpaz-tenant/multi-arch-konflux-sample:29954fe7eca21b9c32076938099ab340cca10227
+
+RUN true
+
 FROM registry.access.redhat.com/ubi9/ubi-micro:9.4-13
   
 LABEL name="Simple image"
