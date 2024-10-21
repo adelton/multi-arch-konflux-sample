@@ -25,6 +25,12 @@ spec:
     value: quay.io/redhat-user-workloads/rhn-engineering-jpaz-tenant/multi-arch-konflux-sample-really-multi:{{revision}}
   - name: dockerfile
     value: Dockerfile
+  - name: build-platforms
+    value:
+      - linux/amd64
+      - linux/arm64
+      - linux/ppc64le
+      - linux/s390x
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
