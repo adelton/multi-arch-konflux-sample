@@ -1,5 +1,5 @@
 
-FROM quay.io/redhat-user-workloads/rhn-engineering-jpaz-tenant/multi-arch-konflux-sample:29954fe7eca21b9c32076938099ab340cca10227@sha256:d64c644f153f4b3477febcde02702b197b9a25932d1f881746bf5e022ee68f60
+FROM quay.io/redhat-user-workloads/rhn-engineering-jpaz-tenant/multi-arch-konflux-sample:29954fe7eca21b9c32076938099ab340cca10227@sha256:90f4d2a1385e9c611d576f81627b6796715373578af0facca28ce07eaa6221b0
 
 RUN true
 
